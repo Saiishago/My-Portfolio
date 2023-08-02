@@ -7,7 +7,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 6px;
-    background-color: #DF6437;
+    background-color: maroon;
     color: white;
 }
 
@@ -17,13 +17,18 @@ nav {
     justify-content: flex-end;
 }
 
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
 .hero{
     background-image: url("../Images/Cover_Image.png");
-    display: inline;
+    display: inline-block;
 }
 
 p {
-    background-color: #DF6437;
+    background-color: rosybrown;
     width: max-content;
     display: flex;
     justify-content: flex-end;
@@ -31,11 +36,12 @@ p {
 }
 
 footer {
+    text-decoration: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5px;
-    background-color: #DF6437;
+    background-color: rosybrown;
     color: white;
 }
 

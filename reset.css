@@ -1,19 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 html {
     height: 100%;
+    background-color: rosybrown;
+}
+
+header{
+    font-size: 100%;
+    font-style: bold, italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
     min-height: fit-content;
-    line-height: 2;
+    line-height: 1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
-    font-size: 150%;
+    font-size: 180%;
+}
+
+p {
+   font-size: 100%;
 }
