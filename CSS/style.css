@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: maroon;
+    --light: white;
+    --hover: rosybrown;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+nav {
+    font-weight: bolder;
+    display: contents;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+nav a:hover {
+    color: var(--hover);
+}
+
+.hero{
+    background-image: url("../Images/Cover_Image.png");
+    display: inline-block;
+}
+
+p {
+    color: var(--light);
+    width: max-content;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    text-decoration: wavy;
+}
+
+footer {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5px;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+section a {
+    text-decoration: none;
+    color:var(--light);
+}
+
+.fa {
+    font-weight: medium;
+    display: contents;
+    align-content: center;
+}
+
+.fa {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5px;
+    font-size: 100%;
+  }
