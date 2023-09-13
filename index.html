@@ -1,71 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Portfolio</title>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="./CSS/reset.css"/>
-    <link rel="stylesheet" href="./CSS/style.css"/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-
-  <body>
-    <header id="header">
-       <h1>SalomeK Mphago</h1>
-       <nav>
-            <a href="#AboutMe">AboutMe</a>
-            <a href="#Work">Work</a>
-            <a href="#ContactMe">ContactMe</a>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="grid-header">
+          <img src="./Images/logo.png" alt="logo" class="logo">
+          <nav>
+            <a href="#About">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
             <a href="#Resume">Resume</a>
-       </nav>
-    </header>
-
-    <main>
-        <div id="hero"><img src="./Images/Cover_Image.png" alt="Cover_Image" class="center" width="1550" height="403"/></div>
-        <div id="content">
-            <section id="About-Me">
-               <h2>AboutMe</h2>
-              <img src="./Images/Picture_01.png" alt="About Me" class="float-left" width="190" height="262"/>
-                <p class="float-right">My name is Salome, I go by SK.<br>I have seven years of Graphic Design experience.
-                 <br>I recently started a Coding Bootcamp with the University of Oregon.
-                 <br>I live in Hood River,OR but originally from Pretoria, South Africa.<br> I enjoy painting, drawing, legos,
-                     and photography...and if you know Oregon,<br>then you know you will never really run out of great views to capture.
-                </p>
-                <hr>
-            </section>
-
-            <section id="Work">
-                <h2>Work</h2>
-                <img src="./Images/Work_Icon.png" alt="Work" class="float-left" width="56" height="56"/>
-                <img src="./Images/Logo_1.png" alt="KidKush" width="256" height="256"/>
-                <img src="./Images/Logo_2.png" alt="IEANSA" width="256" height="256"/>
-                <img src="./Images/VisionBoard 04.2.png" alt="VisionBoard" width="256" height="256"/>
-                <img src="./Images/Logo_3.png" alt="MZTP" width="200" height="200"/>
-                <img src="./Images/VisionBoard 04.png" alt="VisionBoard2" width="296" height="256"/>
-                <hr>
-            </section>
-
-            <section id="Resume">
-                <h2>Resume</h2>
-                <h4><a heref="#">Updated sooN Updated sooN</a></h4>
-                <h4><a heref="#">versioN Coming versioN Coming</a></h4>
-                <h4><a heref="#">Coming versioN Coming versioN</a></h4>
-                <h4><a heref="#">sooN Updated sooN Updated</a></h4>
-                <hr>
-            </section>
+          </nav>
+        </header>
+        <div class="grid-content">
+          <h2>About</h2>
+          <img src="./Images/Picture_01.png" alt="me">
+          <p>My name is Salome, I go by SK.<br>I have seven years of Graphic Design experience.
+            <br>I recently started a Coding Bootcamp with the University of Oregon.
+            <br>I live in Hood River,OR but originally from Pretoria, South Africa.
+          </p>
+          <br>
+          <h2>Projects</h2>
+          <a class="fa fa-github" href="https://neuroventure.github.io/Fmood-the-Diatry/">FMood</a>
         </div>
-    </main>
-
-    <footer>
-        <div id="footer">
-           <section id="ContactMe">
-            <h3><a href="ContactMe">ContactMe</a></h3>
-            <a href="https://www.instagram.com/salome_mphago/" class="fa fa-instagram">Instagram</a>
-            <a href="https://github.com/saiishago/" class="fa fa-github">Github</a>
-            <a href="https://www.linkedin.com/in/salome-kutlwano-mphago-116644119/" class="fa fa-linkedin">LinkedIn</a>
-            <a href="https://mphagosk.wixsite.com/skm-art" class="fa fa-wix">Wix</a>
-           </section>
+        <div class="grid-left">
+          <h2>Resume</h2>
+          <p>coming soon...</p>
         </div>
+        <div class="grid-right">
+          <h2>Contact</h2>
+          <a href="https://www.instagram.com/salome_mphago/" class="fa fa-instagram">Instagram</a>
+          <a href="https://github.com/saiishago/" class="fa fa-github">Github</a>
+          <a href="https://www.linkedin.com/in/salome-kutlwano-mphago-116644119/" class="fa fa-linkedin">LinkedIn</a>
+          <a href="https://mphagosk.wixsite.com/skm-art" class="fa fa-spoon">Wix</a>
+        </div>
+        
+    </div>
+
+    <footer class="footer">
+      <p>
+        &copy; SalomeK, 2023
+      </p>
     </footer>
-  </body>
+</body>
 </html>
