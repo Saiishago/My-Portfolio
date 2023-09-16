@@ -102,7 +102,12 @@ nav a {
     align-items: center;
     justify-content: flex-end;
     margin-right: 20px;
+    transition: color 0.3s ease;
 }
+
+nav a:hover {
+   color: var(--bright);
+} 
 
 /* Content Area */
 .grid-content {
@@ -154,9 +159,10 @@ img {
 .fa {
     color: var(--first);
     font-size: 50px;
-     margin-top: 10px;
+    margin-top: 10px;
+    transition: color 0.3s ease;
 }
-
-.fa :hover {
-    color: var(--bright);
+    
+.fa:hover {
+       color: var(--third);
 } 
